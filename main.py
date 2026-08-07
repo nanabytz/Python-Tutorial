@@ -16,6 +16,6 @@
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 a=10
-b="nandhu"
-print(type(a))
-print(type(b))
+b=20
+c=a+b  #+,-,/ etc are called operators
+print(c)
