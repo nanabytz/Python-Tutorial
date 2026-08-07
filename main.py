@@ -17,10 +17,7 @@ from random import choice
     #print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-a=input("Enter Name:")
-b=int(input("Enter Score out of 100:"))
-c=input("Enter Department:")
-
-print("Name:",a)
-print("Score:",b/10,"/10")
-print("Department:",c)
+if(True):    #True,False are boolean Values
+    print("yes")
+else:
+     print("no")
