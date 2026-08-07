@@ -1,6 +1,7 @@
 #print("Hello world")
 # This is a sample Python script.
 import numbers
+from random import choice
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
@@ -16,9 +17,10 @@ import numbers
     #print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-a=int(input("Enter a number"))
-b=int(input("Enter another number"))
-c=int(input("Enter another one number"))
-d=a*b*c
-e=a+b+c
-print(d/e)
+a=input("Enter Name:")
+b=int(input("Enter Score out of 100:"))
+c=input("Enter Department:")
+
+print("Name:",a)
+print("Score:",b/10,"/10")
+print("Department:",c)
