@@ -15,7 +15,7 @@
     #print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-a=int(input("Enter a number"))
-b=int(input("Enter another number"))
-c=a+b
-print(c)
+a=input("Enter your name: ")
+b=input("Enter your age: ")
+print("My name is :" +a)
+print("My Age is :"+b)
