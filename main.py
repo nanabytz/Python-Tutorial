@@ -17,7 +17,8 @@ from random import choice
     #print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-if(True):    #True,False are boolean Values
-    print("yes")
+maghna=input("Is meghna died or alive:")
+if maghna=="died":
+    print("Suriya meets priya")
 else:
-     print("no")
+    print("Suriya weds Meghna")
