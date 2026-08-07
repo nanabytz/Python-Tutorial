@@ -17,9 +17,9 @@ from random import choice
     #print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-mark=int(input("Enter your marks: "))
+income=int(input("Enter your income: "))
 
-if (mark>35):
-    print("pass")
+if income>7000:
+    print("Scholarship available")
 else:
-    print("fail")
+    print("Not Eligible for Scholarship ")
