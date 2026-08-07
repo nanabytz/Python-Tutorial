@@ -17,8 +17,9 @@ from random import choice
     #print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-maghna=input("Is meghna died or alive:")
-if maghna=="died":
-    print("Suriya meets priya")
+mark=int(input("Enter your marks: "))
+
+if (mark>35):
+    print("pass")
 else:
-    print("Suriya weds Meghna")
+    print("fail")
