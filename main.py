@@ -16,9 +16,9 @@ import numbers
     #print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-a=input("Enter your name: ")
-b=int(input("Enter your age:n "))
-c=input("Enter your address: ")
-print("My name is :" +a)
-print("My Age is :",b)
-print("My Address is :"+c)
+a=int(input("Enter a number"))
+b=int(input("Enter another number"))
+c=int(input("Enter another one number"))
+d=a*b*c
+e=a+b+c
+print(d/e)
