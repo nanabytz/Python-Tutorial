@@ -1,5 +1,6 @@
 #print("Hello world")
 # This is a sample Python script.
+import numbers
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
@@ -16,6 +17,8 @@
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 a=input("Enter your name: ")
-b=input("Enter your age: ")
+b=int(input("Enter your age:n "))
+c=input("Enter your address: ")
 print("My name is :" +a)
-print("My Age is :"+b)
+print("My Age is :",b)
+print("My Address is :"+c)
