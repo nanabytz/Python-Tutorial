@@ -15,7 +15,7 @@
     #print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-a=10
-b=20
-c=a+b  #+,-,/ etc are called operators
+a=int("10")
+b=int("20")
+c=a+b
 print(c)
