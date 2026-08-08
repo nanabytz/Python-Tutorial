@@ -18,10 +18,10 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-a=int(input("Enter a number: "))
-
-if(a% 2==0 ):    #and,or,not are binary operator
-    print("The number is even number")
-
+score=int(input("Enter your score out of 100: "))
+if 35>score:
+    print("Poor student")
+elif 35<score<75:
+    print("Average student")
 else:
-    print(" The number is odd number ")
+    print("Good student")
