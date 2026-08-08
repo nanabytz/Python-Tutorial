@@ -18,9 +18,10 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-a=int(input())
-if(a%3==0):
-    print("Divisible by 3")
+a=int(input("Enter a number: "))
+
+if(a% 2==0 ):    #and,or,not are binary operator
+    print("The number is even number")
 
 else:
-    print("Not divisible by 3 ")
+    print(" The number is odd number ")
