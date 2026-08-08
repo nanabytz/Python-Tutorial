@@ -17,8 +17,11 @@ from random import choice
     #print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/
-for i in range(1,11):
-    print(i,"x2=",i*2)
+a=int(input("enter the number:"))
+b=int(input("enter the number:"))
+
+for i in range(a,b):
+    print(i)
 
 
 
