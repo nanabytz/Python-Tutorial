@@ -16,21 +16,10 @@ from random import choice
 #if __name__ == '__main__':
     #print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
-
-
-a=int(input("Enter your salary: "))
-b=int(input("Enter your age: "))
-if a>=20000 or b<=25:
-    print("your eligible")
-    loan=int(input("Enter your required loan amount: "))
-    if loan <= 50000:
-        print("your eligible for loan")
-    else:
-        print("maximum loan amount is 50000")
+# See PyCharm help at https://www.jetbrains.com/help/
+for i in "apple":
+    print(i)
 
 
 
 
-else:
-    print("your not eligible")
