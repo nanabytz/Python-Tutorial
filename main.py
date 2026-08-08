@@ -1,6 +1,7 @@
 #print("Hello world")
 # This is a sample Python script.
 import numbers
+from itertools import count
 from random import choice
 
 # Press Shift+F10 to execute it or replace it with your code.
@@ -18,11 +19,10 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-
+count=0
 for i in range(1,11):
     if(i%2==0):
-        print(i)
-
-
+        count=count+1
+print(count)
 
 
