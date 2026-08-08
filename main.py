@@ -17,11 +17,11 @@ from random import choice
     #print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/
-a=int(input("enter the number:"))
-b=int(input("enter the number:"))
 
-for i in range(a,b):
-    print(i)
+
+for i in range(1,11):
+    if(i%2==0):
+        print(i)
 
 
 
