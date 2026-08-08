@@ -19,16 +19,11 @@ from random import choice
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 
-a=int(input("Enter a number: "))
-b=int(input("Enter another number: "))
-c=input("Add/sub/mul/div:")
-if c=="add":
-    print(a+b)
-elif c=="sub":
-    print(a-b)
-elif c=="mul":
-    print(a*b)
-elif c=="div":
-    print(a/b)
+score=int(input("score percentage:"))
+if score>=70:
+    name=input("enter your name: ")
+    age=input("enter your age:")
+
+    print("you are eligible ")
 else:
-    print("Invalid input")
+    print("you are not eligible")
