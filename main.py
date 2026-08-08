@@ -19,11 +19,18 @@ from random import choice
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 
-score=int(input("score percentage:"))
-if score>=70:
-    name=input("enter your name: ")
-    age=input("enter your age:")
+a=int(input("Enter your salary: "))
+b=int(input("Enter your age: "))
+if a>=20000 or b<=25:
+    print("your eligible")
+    loan=int(input("Enter your required loan amount: "))
+    if loan <= 50000:
+        print("your eligible for loan")
+    else:
+        print("maximum loan amount is 50000")
 
-    print("you are eligible ")
+
+
+
 else:
-    print("you are not eligible")
+    print("your not eligible")
