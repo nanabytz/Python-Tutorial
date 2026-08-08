@@ -18,10 +18,17 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-score=int(input("Enter your score out of 100: "))
-if 35>score:
-    print("Poor student")
-elif 35<score<75:
-    print("Average student")
+
+a=int(input("Enter a number: "))
+b=int(input("Enter another number: "))
+c=input("Add/sub/mul/div:")
+if c=="add":
+    print(a+b)
+elif c=="sub":
+    print(a-b)
+elif c=="mul":
+    print(a*b)
+elif c=="div":
+    print(a/b)
 else:
-    print("Good student")
+    print("Invalid input")
