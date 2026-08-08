@@ -17,9 +17,10 @@ from random import choice
     #print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-income=int(input("Enter your income: "))
 
-if income>7000:
-    print("Scholarship available")
+a=int(input())
+if(a%3==0):
+    print("Divisible by 3")
+
 else:
-    print("Not Eligible for Scholarship ")
+    print("Not divisible by 3 ")
