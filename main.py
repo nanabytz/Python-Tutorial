@@ -19,14 +19,11 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-even=0
+sum=0
+for i in range(1,6):
+    sum+=i
+print(sum)
 
-for i in range(1,101):
-    if(i%3==0 and i%5==0):
-        even=even+1
-
-
-print(even)
 
 
 
