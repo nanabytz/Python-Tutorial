@@ -19,10 +19,16 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-count=0
+even=0
+odd=0
 for i in range(1,11):
     if(i%2==0):
-        count=count+1
-print(count)
+        even=even+1
+    else:
+        odd=odd+1
+
+print("Even=",even)
+print("Odd=",odd)
+
 
 
