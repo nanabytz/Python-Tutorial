@@ -19,18 +19,9 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-a = []
-print("Enter a number")
-for i in range(5):
-    # Use an f-string to combine the text and the variable 'i' into one string
-    num = int(input("Enter a num "+str(i+1)))
-    a.append(num)
-print(a)
-
-sum=0
-for i in a :
-      sum=sum+i
-print(sum)
+for i in range(1,6):
+    for j in range(1,3):
+        print(j,"Apple")
 
 
 
