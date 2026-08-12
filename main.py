@@ -21,10 +21,16 @@ from random import choice
 
 a = []
 print("Enter a number")
-for i in range(10):
+for i in range(5):
     # Use an f-string to combine the text and the variable 'i' into one string
-    num = int(input(f"Enter a num {i}: "))
+    num = int(input("Enter a num "+str(i+1)))
     a.append(num)
+print(a)
+
+sum=0
+for i in a :
+      sum=sum+i
+print(sum)
 
 
 
