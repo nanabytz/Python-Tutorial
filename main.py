@@ -19,9 +19,12 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-for i in range(1,6):
-    for j in range(1,3):
-        print(j,"Apple")
+for i in range(1,3):
+    print("Week:",i)
+    
+    for j in range(1,4):
+        print("Day:",j)
+    
 
 
 
