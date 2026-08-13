@@ -19,11 +19,10 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-for i in range(1,5):
-    print()
-    
-    for j in range(1,i+1):
-        print(j,end="")
+i=0
+while(i==0):
+   print(i)
+   
     
 
 
