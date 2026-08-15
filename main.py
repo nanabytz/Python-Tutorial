@@ -19,10 +19,13 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-def painter():
-    print("painter")
+def add():
+    print("Addition")
+    a = int(input("Enter a number: "))
+    b = int(input("Enter another number: "))
+    print(a + b)
 
-painter()
+add()
 
 
   
