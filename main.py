@@ -19,10 +19,10 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-i=1
-while(i<5):
+i=10
+while(i<=200):
    print(i)
-   i=i+1
+   i=i+10
     
 
 
