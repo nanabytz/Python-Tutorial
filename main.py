@@ -20,10 +20,10 @@ from random import choice
 # See PyCharm help at https://www.jetbrains.com/help/
 
 def add():
-    print("Addition")
+    print("Substraction")
     a = int(input("Enter a number: "))
     b = int(input("Enter another number: "))
-    print(a + b)
+    print(a - b)
 
 add()
 
