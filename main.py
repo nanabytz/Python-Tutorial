@@ -25,7 +25,7 @@ a={"name":"nandhu",
    "students":["nandhu","mango","apple"]
    }
                                                                  
-print(a)
+print(a.keys())
 
 
 
