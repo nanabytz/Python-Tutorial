@@ -19,8 +19,8 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-i=0
-while(i==0):
+i=1
+while(i<5):
    print(i)
    
     
