@@ -20,7 +20,7 @@ from random import choice
 # See PyCharm help at https://www.jetbrains.com/help/
 
 a=[1,2,3,4,5,6]
-a[0]=11
+a.pop(1)
 print(a)
     
 
