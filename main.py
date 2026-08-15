@@ -19,12 +19,9 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-i=5
-fact=1
-while(i>0):
-   fact=fact*i
-   i=i-1
-print(fact)
+a=[1,2,3,4,5,6]
+a.insert(0,10)
+print(a)
     
 
 
