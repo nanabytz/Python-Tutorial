@@ -19,15 +19,10 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-a={"name":"nandhu",
-   "age":"19",
-   "location":"india",
-   "students":["nandhu","mango","apple"]
-   }
-                                                                 
-print(a.keys())
+def painter():
+    print("painter")
 
-
+painter()
 
 
   
