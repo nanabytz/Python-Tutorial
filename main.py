@@ -20,9 +20,9 @@ from random import choice
 # See PyCharm help at https://www.jetbrains.com/help/
 
 a=[1,2,3,4,5,6]
-a.pop(1)
-print(a)
-    
+b=[11,12,13]
+a.extend(b)
+print(a)    
 
 
 
