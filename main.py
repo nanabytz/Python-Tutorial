@@ -19,13 +19,15 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-def add():
-    print("Substraction")
-    a = int(input("Enter a number: "))
-    b = int(input("Enter another number: "))
-    print(a - b)
+def findevenorodd():
+    num=int(input("Enter the number:"))
+    if(num%2==0):
+        print("Even")
+    else:
+        print("Odd")
+findevenorodd()
 
-add()
+         
 
 
   
