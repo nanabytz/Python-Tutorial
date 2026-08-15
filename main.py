@@ -19,7 +19,8 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-a={1,2,3,4,4}                                                                           
+a={1,2,3,4,4}
+a.add(10)                                                                           
 print(a)
 
 
