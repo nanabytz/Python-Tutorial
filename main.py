@@ -19,8 +19,12 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-a={1,2,3,4,4}
-a.pop()  #we cannot choose to remove or add                                                                         
+a={"name":"nandhu",
+   "age":"19",
+   "location":"india",
+   "students":["nandhu","mango","apple"]
+   }
+                                                                 
 print(a)
 
 
