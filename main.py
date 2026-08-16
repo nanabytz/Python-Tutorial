@@ -19,14 +19,27 @@
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-def add (n1,n2):
-    return n1+n2
+class goa:
+    name=""
+    drink=""
+    def party(self):
+        print("lets party...")
+    def beach(self):
+        print("enjoy the beach")
 
-a=int(input("a:"))
-b=int(input("b:"))
-c=int(input("c:"))
+ramesh = goa()
+suresh = goa()
 
-added=add(a,b)
-multi=added*c
-print(multi)
-  
+ramesh.name="Ramesh"
+suresh.name="Suresh"
+
+ramesh.drink="yes"
+suresh.drink="no"
+
+print(ramesh.name)
+print("drink:",ramesh.drink)
+print(suresh.name)
+print("drink:",suresh.drink) 
+
+ramesh.party()
+suresh.beach()
