@@ -19,13 +19,13 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-def findevenorodd():
+def findpassorfail():
     num=int(input("Enter the number:"))
-    if(num%2==0):
-        print("Even")
+    if(num>=35):
+        print("pass")
     else:
-        print("Odd")
-findevenorodd()
+        print("fail")
+findpassorfail()
 
          
 
