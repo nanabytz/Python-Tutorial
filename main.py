@@ -19,10 +19,11 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-def painter ():
-    return"Iam painter"
-print(painter())
+def valueofa():
+    return 10
 
+a=valueofa()
+print(a)
          
 
 
