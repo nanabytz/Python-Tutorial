@@ -19,13 +19,9 @@ from random import choice
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-def printrange(n1,n2):
-    for i in range(n1,n2+1):
-        print(i,end=",")
-
-a = int(input("Enter the first number: "))
-b = int(input("Enter the second number: "))
-printrange(a,b)
+def painter ():
+    return"Iam painter"
+print(painter())
 
          
 
