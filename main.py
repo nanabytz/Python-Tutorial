@@ -19,19 +19,14 @@
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-s_username="nan"
-s_password="123"
+def add (n1,n2):
+    return n1+n2
 
-uname = input("Username: ")
-password = input("Password: ")
+a=int(input("a:"))
+b=int(input("b:"))
+c=int(input("c:"))
 
-def validate():
-    if s_username == uname and s_password == password:
-        return "correct"
-    else:
-        return "wrong"
-
-a=validate()
-print(a)
-
+added=add(a,b)
+multi=added*c
+print(multi)
   
