@@ -19,20 +19,21 @@
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-class laptop :
-    def __init__(self):
-        self.ram="" 
-        self.processor=""
+class student :
+    def __init__ (self):
+        self.name="nandhu"
+        self.regno="8921"
     def display(self):
-        print("Ram",self.ram)
-        print("Processor",self.processor)
+        print("Name:",self.name)
+        print("Regno:",self.regno)
 
 
-hp=laptop()
-hp.ram="8gb"
-hp.processor="i5"
+s1=student()
+s2=student()
+s1.name="mango"
+s1.regno="123"
 
-hp.display()
-    
-    
-      
+s2.name="raju"
+s2.regno="6767"
+s1.display()
+s2.display()
