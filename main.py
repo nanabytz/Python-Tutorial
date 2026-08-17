@@ -19,27 +19,20 @@
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-class goa:
-    name=""
-    drink=""
-    def party(self):
-        print("lets party...")
-    def beach(self):
-        print("enjoy the beach")
+class laptop :
+    def __init__(self):
+        self.ram="" 
+        self.processor=""
+    def display(self):
+        print("Ram",self.ram)
+        print("Processor",self.processor)
 
-ramesh = goa()
-suresh = goa()
 
-ramesh.name="Ramesh"
-suresh.name="Suresh"
+hp=laptop()
+hp.ram="8gb"
+hp.processor="i5"
 
-ramesh.drink="yes"
-suresh.drink="no"
-
-print(ramesh.name)
-print("drink:",ramesh.drink)
-print(suresh.name)
-print("drink:",suresh.drink) 
-
-ramesh.party()
-suresh.beach()
+hp.display()
+    
+    
+      
