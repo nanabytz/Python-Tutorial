@@ -19,21 +19,12 @@
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-class student :
+class Fruit :
     def __init__ (self):
-        self.name="nandhu"
-        self.regno="8921"
-    def display(self):
-        print("Name:",self.name)
-        print("Regno:",self.regno)
+        self.color="black"
+apple=Fruit()
+apple.color="red"
 
 
-s1=student()
-s2=student()
-s1.name="mango"
-s1.regno="123"
-
-s2.name="raju"
-s2.regno="6767"
-s1.display()
-s2.display()
+print(apple.color)
+     
