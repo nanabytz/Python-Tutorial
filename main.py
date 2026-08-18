@@ -19,21 +19,15 @@
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-class Teacher:
-    def __init__(self, name, reg):
-        self.name = name
-        self.regno = reg
-
-    def display(self):
-        print("Name:", self.name)
-        print("Reg No:", self.regno)
-
-
-t1 = Teacher("Nandhu", "1")
-t2 = Teacher("Mango", "2")
-
-t1.display()
-t2.display()
+class calculator :
+    def __init__(self,a,b):
+        self.num1=a
+        self.num2=b
+    def add(self):
+        print("add", self.num1+self.num2)
+obj1=calculator(10,2)
+obj1.add()
+        
 
 
 
