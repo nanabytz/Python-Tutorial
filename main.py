@@ -19,12 +19,22 @@
 
 # See PyCharm help at https://www.jetbrains.com/help/
 
-class Fruit :
-    def __init__ (self):
-        self.color="black"
-apple=Fruit()
-apple.color="red"
+class Teacher:
+    def __init__(self, name, reg):
+        self.name = name
+        self.regno = reg
+
+    def display(self):
+        print("Name:", self.name)
+        print("Reg No:", self.regno)
 
 
-print(apple.color)
+t1 = Teacher("Nandhu", "1")
+t2 = Teacher("Mango", "2")
+
+t1.display()
+t2.display()
+
+
+
      
