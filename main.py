@@ -18,16 +18,19 @@
     #print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/
+class phone ():
+    def __init__(self,brand,price,chargertype):
+        self.brand=brand
+        self.price=price
+        self.chargertype=chargertype
+    def display (self):
+        print("Brand:",self.brand)
+        print("Price:",self.price)
+        print("Chargertype:",self.chargertype)
 
-class calculator :
-    def __init__(self,a,b):
-        self.num1=a
-        self.num2=b
-    def add(self):
-        print("add", self.num1+self.num2)
-obj1=calculator(10,2)
-obj1.add()
-        
+samsung=phone("samsung","10000","B-TYPE")
+samsung.display()        
+
 
 
 
