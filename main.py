@@ -19,16 +19,17 @@
 
 # See PyCharm help at https://www.jetbrains.com/help/
 class phone ():
-    def __init__(self,brand,price,chargertype):
+    chargertype="C-TYPE"
+    def __init__(self,brand,price,):
         self.brand=brand
         self.price=price
-        self.chargertype=chargertype
+       
     def display (self):
         print("Brand:",self.brand)
         print("Price:",self.price)
         print("Chargertype:",self.chargertype)
 
-samsung=phone("samsung","10000","B-TYPE")
+samsung=phone("samsung","10000")
 samsung.display()        
 
 
