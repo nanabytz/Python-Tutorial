@@ -21,13 +21,18 @@
 class dad () :
     def phone (self):
         print("Dads phone")
+class mom():
+    def sweet (self):
+        print("Moms sweets")        
 
-class son():
+class son(dad,mom):
     def laptop(self):
         print("sons laptop")  
 
 ram=son()
-ram.laptop()   
+ram.phone()
+ram.sweet()
+
 
 
 
