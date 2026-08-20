@@ -18,19 +18,16 @@
     #print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/
-class laptop():
-    chargertype="C-Type"
+class dad () :
+    def phone (self):
+        print("Dads phone")
 
-    def __init__(self):
-        self.brand=""
-        self.price=34
-    def setPrice(self,price):
-        self.price=price
-    def getPrice (self):
-        print(self.price)
+class son():
+    def laptop(self):
+        print("sons laptop")  
 
-hp=laptop()
-hp.getPrice()
+ram=son()
+ram.laptop()   
 
 
 
