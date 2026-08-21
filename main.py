@@ -1,3 +1,5 @@
+from abc import ABC, abstractmethod
+
 #print("Hello world")
 # This is a sample Python script.
 #import numbers
@@ -18,26 +20,21 @@
     #print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/
-class dad():
-    def money (self) :
-        print("Dads money")
+class Animal():
+    
+    def sound(self):
+        print("Animal makes sound")
 
-class son1(dad):
-    pass
+class Dog (Animal):
+    def sound(self):
+        print("Dog barks")
 
+class Bird (Animal):
+    def sound (self):
+        print("Birds sing")
+        
 
-class son2 (dad):
-    pass
-
-
-class son3 (dad):
-    pass
-
-s2=son2()
-s2.money()
-
-
-
-
+d1=Bird()
+d1.sound()
 
      
