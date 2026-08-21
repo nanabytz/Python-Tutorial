@@ -18,24 +18,24 @@
     #print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/
-class grandpa():
-    def phone (self) :
-        print("Grandpa phone")
-
-class dad(grandpa):
-    def money(self):
+class dad():
+    def money (self) :
         print("Dads money")
 
-class son (dad):
-    def laptop(self) :
-        print("sons laptop")
+class son1(dad):
+    pass
 
-ram=son()
-ram.laptop()
-ram.money()
 
-d1=dad()
-d1.phone()
+class son2 (dad):
+    pass
+
+
+class son3 (dad):
+    pass
+
+s2=son2()
+s2.money()
+
 
 
 
