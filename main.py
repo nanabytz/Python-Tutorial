@@ -22,18 +22,24 @@
 # See PyCharm help at https://www.jetbrains.com/help/
 
 
-class Shape():
-    def area(self):
-        return 0 
-class Rectangle(Shape):
-    def area (self):
-        l=10
-        b=30
-        print(l*b)
+class Person:
+    def __init__(self, name):
+        self.name = name
 
 
+class Student(Person):
+    def __init__(self, name, grade):
+        super().__init__(name)
+        self.grade = grade
 
-r1=Rectangle()
-r1.area()
+    def display(self):
+        print(self.name, self.grade)
+
+
+s1 = Student("NAN", "A")
+s1.display()
+
+
+        
 
  
