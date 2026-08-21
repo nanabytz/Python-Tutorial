@@ -1,4 +1,4 @@
-from abc import ABC, abstractmethod
+
 
 #print("Hello world")
 # This is a sample Python script.
@@ -28,7 +28,7 @@ class Shape():
 class Rectangle(Shape):
     def area (self):
         l=10
-        b=20
+        b=30
         print(l*b)
 
 
