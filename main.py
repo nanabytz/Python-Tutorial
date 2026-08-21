@@ -20,21 +20,20 @@ from abc import ABC, abstractmethod
     #print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/
-class Animal():
-    
-    def sound(self):
-        print("Animal makes sound")
 
-class Dog (Animal):
-    def sound(self):
-        print("Dog barks")
 
-class Bird (Animal):
-    def sound (self):
-        print("Birds sing")
-        
+class Shape():
+    def area(self):
+        return 0 
+class Rectangle(Shape):
+    def area (self):
+        l=10
+        b=20
+        print(l*b)
 
-d1=Bird()
-d1.sound()
 
-     
+
+r1=Rectangle()
+r1.area()
+
+ 
