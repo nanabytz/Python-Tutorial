@@ -22,8 +22,8 @@
 # See PyCharm help at https://www.jetbrains.com/help/
   
 try:
-     a=int(input())
-     b=int(input())
-     print(a+b)
+     a=(input())
+     b=(input())
+     print(a/b)  #division only for integers
 except Exception as e:
      print("TRY again",e)
