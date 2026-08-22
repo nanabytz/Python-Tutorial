@@ -24,7 +24,7 @@
 
 class company ():
     def __init__(self):
-        self.companyName="Google"
+        self.__companyName="Google"
 
 c1=company()
-print(c1.companyName)
+print(c1.__companyName)
