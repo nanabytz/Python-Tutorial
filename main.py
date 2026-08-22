@@ -24,9 +24,12 @@
 try:
      a=int(input())
      b=int(input())
-     c=input()
-     print(c/a)  #division only for integers
+     print(a+b)  
 except ValueError as e:
      print("TRY again",e)
 except TypeError as e:
      print("Try again",e)
+except NameError as e:
+     print("Try again",e)
+finally:
+     print("Done")
