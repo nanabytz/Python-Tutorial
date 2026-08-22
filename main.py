@@ -21,8 +21,9 @@
 
 # See PyCharm help at https://www.jetbrains.com/help/
   
-
-a=int(input())
-b=int(input()) #if I give a string instead of integer it shows 
-               # an error this error is called RUN TIME ERROR
-print(a+b)
+try:
+     a=int(input())
+     b=int(input())
+     print(a+b)
+except Exception:
+     print("TRY again")
