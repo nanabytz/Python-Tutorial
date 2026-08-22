@@ -22,8 +22,11 @@
 # See PyCharm help at https://www.jetbrains.com/help/
   
 try:
-     a=(input())
-     b=(input())
-     print(a/b)  #division only for integers
-except Exception as e:
+     a=int(input())
+     b=int(input())
+     c=input()
+     print(c/a)  #division only for integers
+except ValueError as e:
      print("TRY again",e)
+except TypeError as e:
+     print("Try again",e)
