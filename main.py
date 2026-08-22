@@ -20,8 +20,9 @@
     #print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/
+  
 
-
-a=10
-b=20
-print(a+a)
+a=int(input())
+b=int(input()) #if I give a string instead of integer it shows 
+               # an error this error is called RUN TIME ERROR
+print(a+b)
