@@ -22,9 +22,6 @@
 # See PyCharm help at https://www.jetbrains.com/help/
 
 
-class company ():
-    def __init__(self):
-        self.__companyName="Google"
-
-c1=company()
-print(c1.__companyName)
+print("hi")
+print("hey")
+printt("hhi")
