@@ -22,21 +22,9 @@
 # See PyCharm help at https://www.jetbrains.com/help/
 
 
-class Employee:
-    def __init__(self, name, salary):
-        self.name = name
-        self.salary = salary
+class company ():
+    def __init__(self):
+        self.companyName="Google"
 
-
-class Manager(Employee):
-    def __init__(self, name, salary, department):
-        super().__init__(name, salary)
-        self.department = department
-
-    def display(self):
-        print(self.name, self.salary, self.department)
-
-
-m1 = Manager("NAN", 50000, "IT")
-m1.display()
- 
+c1=company()
+print(c1.companyName)
