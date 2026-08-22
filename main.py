@@ -22,6 +22,6 @@
 # See PyCharm help at https://www.jetbrains.com/help/
 
 
-print("hi")
-print("hey")
-printt("hhi")
+a=10
+b=20
+print(a+a)
